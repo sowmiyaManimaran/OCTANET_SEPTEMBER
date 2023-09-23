@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:blueviolet;
+ }
+ 
+ #wrapper h2{
+     display:flex;
+     justify-content: center;
+     
+ }
+ 
+ h2{
+     color:blueviolet;
+     letter-spacing: 1px;
+ }
+ input{
+     border-radius: 5px;
+     border: 1px solid black ;
+     margin:15px 0px;
+     height:35px;
+     width:260px;
+     padding:0px 0px 0px 20px;
+     color:black;
+     
+ }
+ input:active{
+    border:none;
+ }
+ 
+ #wrapper{
+     height:500px;
+     width:400px;
+     margin:100px auto;
+     background-color:black;
+     border-radius:10px;
+     padding:30px;
+ }
+ 
+ button{
+     margin-top:20px;
+     background-color: blueviolet;
+     border-radius: 9px;
+     height: 40px;
+     font-weight: 100;
+     padding:0 40px ;
+     letter-spacing: 1px;
+     border:none;
+
+  
+ }
+#todoList{
+     color:blueviolet;
+     font-size:25px; 
+     margin-top: 10px; 
+     font-family: 'Times New Roman', Times, serif;
+     
+ }
+ #todoList p{
+    margin:10px 0px;
+ }
+ #todoList p:hover{
+    cursor: pointer;
+ }
+ #img{
+    width: 30px;
+    height: 30px;
+    float:right;
+    display:flex;
+    
+ }
+ 
+ 
